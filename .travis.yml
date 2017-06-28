@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - "8"
+sudo: false
+install:
+  - npm install yarn -g
+  - yarn install
+  - yarn add $TYPESCRIPT
+env:
+  - TYPESCRIPT=typescript@2.3.4
+  - TYPESCRIPT=typescript@2.4.0
+  - TYPESCRIPT=typescript@2.5.0-dev.20170613
+  - TYPESCRIPT=typescript@2.5.0-dev.20170614
+  - TYPESCRIPT=typescript@2.5.0-dev.20170615
+  - TYPESCRIPT=typescript@2.5.0-dev.20170616
+  - TYPESCRIPT=typescript@2.5.0-dev.20170617
+  - TYPESCRIPT=typescript@2.5.0-dev.20170618
+  - TYPESCRIPT=typescript@2.5.0-dev.20170619
+  - TYPESCRIPT=typescript@2.5.0-dev.20170621
+  - TYPESCRIPT=typescript@2.5.0-dev.20170622
+  - TYPESCRIPT=typescript@2.5.0-dev.20170623
+  - TYPESCRIPT=typescript@2.5.0-dev.20170624
+  - TYPESCRIPT=typescript@2.5.0-dev.20170625
+  - TYPESCRIPT=typescript@2.5.0-dev.20170626
+  - TYPESCRIPT=typescript@2.5.0-dev.20170627
+  - TYPESCRIPT=typescript@2.4.1
